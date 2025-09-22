@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>EchoSynch</title>
@@ -13,20 +13,13 @@
       --text-color: #333;
       --header-height: 60px;
     }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: var(--light-color);
       color: var(--text-color);
       line-height: 1.6;
     }
-
     header {
       background: var(--primary-color);
       color: #fff;
@@ -37,7 +30,6 @@
       background-position: center;
       position: relative;
     }
-
     header::after {
       content: "";
       position: absolute;
@@ -46,34 +38,12 @@
       background: rgba(0, 0, 0, 0.4);
       z-index: 1;
     }
-
     header h1 {
       position: relative;
       z-index: 2;
       font-size: 2.5rem;
       text-shadow: 0 2px 4px rgba(0,0,0,0.6);
     }
-
-    #lang-btn {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      z-index: 3;
-      background: #fff;
-      color: var(--primary-color);
-      border: none;
-      padding: 0.5rem 1rem;
-      border-radius: 20px;
-      font-weight: bold;
-      cursor: pointer;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-      transition: background 0.2s;
-      font-size: 1.2rem;
-    }
-    #lang-btn:hover {
-      background: var(--accent-color);
-    }
-
     main {
       max-width: 900px;
       margin: 2rem auto;
@@ -82,28 +52,18 @@
       border-radius: 10px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
-
-    section {
-      margin-bottom: 2rem;
-    }
-
+    section { margin-bottom: 2rem; }
     section h2 {
       color: var(--primary-color);
       margin-bottom: 1rem;
       border-bottom: 2px solid var(--accent-color);
       padding-bottom: 0.5rem;
     }
-
     section h3 {
       margin-top: 2rem;
       color: #222;
     }
-
-    ul, ol {
-      margin-left: 1.5rem;
-      margin-bottom: 1rem;
-    }
-
+    ul, ol { margin-left: 1.5rem; margin-bottom: 1rem; }
     pre {
       background: #f5f5f5;
       padding: 1rem;
@@ -112,13 +72,11 @@
       font-size: 1rem;
       margin-bottom: 1rem;
     }
-
     .contact {
       background: var(--accent-color);
       padding: 1.5rem;
       border-radius: 8px;
     }
-
     footer {
       text-align: center;
       padding: 1.5rem;
@@ -126,117 +84,117 @@
       color: #fff;
       margin-top: 2rem;
     }
-
     @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.8rem;
-      }
-      main {
-        padding: 1.5rem;
-      }
-      #lang-btn {
-        top: 10px;
-        right: 10px;
-        padding: 0.3rem 0.7rem;
-      }
+      header h1 { font-size: 1.8rem; }
+      main { padding: 1.5rem; }
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1 id="main-title">Benvenuti ad EchoSynch</h1>
-    <button id="lang-btn">🇬🇧</button>
+    <h1>🌍 EchoSynch: Inclusive Communication Revolutionized</h1>
+    <p><strong>Status:</strong> WIP • <strong>Language:</strong> English</p>
   </header>
 
   <main>
-    <section id="presentazione">
-      <h2 id="about-title">🌍 EchoSynch: Comunicazione Inclusiva Rivoluzionata</h2>
-      <p id="about-status"><strong>Stato:</strong> In sviluppo • <strong>Lingua:</strong> Italiano</p>
-
-      <h3 id="toc-title">Indice</h3>
-      <ul id="toc-list">
-        <li>Introduzione</li>
-        <li>Come funziona</li>
-        <li>Tecnologie utilizzate</li>
-        <li>Applicazioni pratiche</li>
-        <li>Sfide e limiti attuali</li>
-        <li>Requisiti</li>
-        <li>Installazione</li>
-        <li>Utilizzo</li>
-        <li>Struttura repository</li>
-        <li>Contributi</li>
+    <section>
+      <h2>Table of Contents</h2>
+      <ul>
+        <li>Introduction</li>
+        <li>How It Works</li>
+        <li>Technologies Used</li>
+        <li>Practical Applications</li>
+        <li>Animations Completed</li>
+        <li>Challenges and Current Limitations</li>
+        <li>Requirements</li>
+        <li>Installation</li>
+        <li>Usage</li>
+        <li>Repository Structure</li>
+        <li>Contributing</li>
         <li>Roadmap</li>
-        <li>Impatto sociale e conclusione</li>
+        <li>Social Impact and Conclusion</li>
       </ul>
 
-      <h3 id="intro-title">Introduzione</h3>
-      <p id="about-text">
-        Immagina un mondo dove le parole non sono solo suoni, ma si trasformano in gesti visibili. Un mondo dove la comunicazione è davvero accessibile a tutti, senza barriere.<br><br>
-        EchoSynch nasce proprio con questo scopo: costruire un ponte tra persone sorde e udenti grazie alla tecnologia. Attraverso un avatar 3D realistico, il nostro sistema traduce l’audio parlato in LIS (Lingua dei Segni Italiana) in tempo reale.<br><br>
-        Ogni gesto è progettato con precisione per rispettare la grammatica e la struttura della LIS. Questo permette a milioni di persone di accedere immediatamente a video, trasmissioni TV, conferenze online e conversazioni quotidiane.
+      <h3>Introduction</h3>
+      <p>
+        Imagine a world where words are not just sounds, but transform into visible gestures. A world where communication is truly accessible to everyone, without barriers.<br><br>
+        EchoSynch was created with this very purpose: to build a bridge between deaf and hearing people through technology. Through a realistic 3D avatar, our system translates spoken audio into LIS (Italian Sign Language) in real time.<br><br>
+        Each gesture is precisely designed to respect the grammar and structure of LIS. This allows millions of people to immediately access videos, TV broadcasts, online conferences, and everyday conversations.
       </p>
 
-      <h3 id="how-title">Come funziona</h3>
-      <ol id="how-list">
-        <li><strong>Riconoscimento vocale</strong> – L’audio in ingresso viene analizzato e trascritto in tempo reale dal sistema speech-to-text.</li>
-        <li><strong>Traduzione LIS</strong> – Il testo viene interpretato da un motore linguistico che mappa le frasi ai segni LIS corrispondenti.</li>
-        <li><strong>Animazione 3D</strong> – L’avatar esegue i gesti con movimenti del corpo ed espressioni, fondamentali per la corretta comprensione della lingua dei segni.</li>
+      <h3>How It Works</h3>
+      <p>How does EchoSynch work? The process happens in three main stages:</p>
+      <ol>
+        <li><strong>Speech Recognition</strong> – The input audio is analyzed and transcribed in real time by the speech-to-text system.</li>
+        <li><strong>LIS Translation</strong> – The text is interpreted by a linguistic engine that maps sentences to corresponding LIS signs.</li>
+        <li><strong>3D Animation</strong> – The avatar performs gestures with body movements and expressions, which are essential for correct comprehension of sign language.</li>
       </ol>
-      <p id="how-result">👉 Il risultato è una comunicazione immediata, naturale e accessibile.</p>
+      <p>👉 The result is immediate, natural, and accessible communication.</p>
 
-      <h3 id="tech-title">Tecnologie utilizzate</h3>
-      <ul id="tech-list">
-        <li><strong>THREE.js</strong> → per modellazione e animazione 3D direttamente sul web, con movimenti fluidi e realistici.</li>
-        <li><strong>Blender</strong> → per creare il modello 3D e definire le animazioni LIS.</li>
-        <li><strong>HTML e integrazione web</strong> → per un’interfaccia semplice, compatibile e accessibile su ogni dispositivo.</li>
-        <li><strong>Motori di riconoscimento vocale</strong> → per convertire l’audio in testo in tempo reale, base per la traduzione LIS.</li>
+      <h3>Technologies Used</h3>
+      <ul>
+        <li><strong>THREE.js</strong> → for 3D modeling and animation directly on the web, with smooth and realistic movements.</li>
+        <li><strong>Blender</strong> → to create the 3D model and define LIS-related animations.</li>
+        <li><strong>HTML and web integration</strong> → for a simple, compatible, and accessible interface on any device.</li>
+        <li><strong>Speech recognition engines</strong> → to convert audio into text in real time, serving as the basis for LIS translation.</li>
       </ul>
-      <p id="tech-note">Ogni componente è stata scelta per garantire affidabilità, realismo e facilità d’uso.</p>
+      <p>Each component was chosen to ensure reliability, realism, and ease of use.</p>
 
-      <h3 id="app-title">Applicazioni pratiche</h3>
-      <p id="app-text">Stiamo lavorando per integrare EchoSynch nelle principali piattaforme di streaming come YouTube, Netflix, Prime Video, Disney+ e altre, per rendere i contenuti più accessibili alla comunità sorda.</p>
-      <ul id="app-list">
-        <li>📺 <strong>Trasmissioni TV</strong> → rendere i programmi live più accessibili.</li>
-        <li>🎓 <strong>Educazione online</strong> → garantire un’esperienza di apprendimento davvero inclusiva per studenti sordi.</li>
-        <li>🎤 <strong>Eventi e conferenze</strong> → offrire traduzione simultanea senza bisogno costante di interpreti.</li>
+      <h3>Practical Applications</h3>
+      <p>We are also working to integrate EchoSynch into major streaming platforms such as YouTube, Netflix, Prime Video, Disney+, and others, to make their content more accessible to the deaf community.</p>
+      <p>But applications don’t stop there:</p>
+      <ul>
+        <li>📺 <strong>TV broadcasts</strong> → making live programs more accessible.</li>
+        <li>🎓 <strong>Online education</strong> → ensuring a truly inclusive learning experience for deaf students.</li>
+        <li>🎤 <strong>Events and conferences</strong> → offering simultaneous translation without the constant need for interpreters.</li>
       </ul>
-      <p id="app-note">👉 Attualmente, nulla di simile esiste sul mercato.</p>
+      <p>👉 Currently, nothing like this exists on the market.</p>
 
-      <h3 id="ch-title">Sfide e limiti attuali</h3>
-      <ul id="ch-list">
-        <li><strong>Compatibilità browser</strong> – Funziona bene su Chrome, ma restano problemi su Edge, Firefox e Opera.</li>
-        <li><strong>Qualità dei movimenti</strong> – Alcuni gesti dell’avatar non sono ancora abbastanza fluidi.</li>
-        <li><strong>Vocabolario LIS incompleto</strong> – L’avatar 3D attuale non copre ancora tutta la gamma dei segni LIS di base.</li>
+      <h3>Animations Completed</h3>
+      <ul>
+        <li>Ciao</li>
+        <li>Come stai?</li>
+        <li>Io</li>
+        <li>Tu</li>
+        <li>Bene</li>
+        <li>Aiutare</li>
       </ul>
-      <p id="ch-note">Queste sfide fanno parte del nostro lavoro in corso: superarle è essenziale per offrire uno strumento davvero affidabile e inclusivo.</p>
 
-      <h3 id="req-title">Requisiti</h3>
-      <ul id="req-list">
+      <h3>Challenges and Current Limitations</h3>
+      <ul>
+        <li><strong>Browser compatibility</strong> – Works smoothly on Chrome, but issues remain with Edge, Firefox, and Opera.</li>
+        <li><strong>Dynamic motion quality</strong> – Some avatar gestures are not fluid enough.</li>
+        <li><strong>Incomplete LIS vocabulary</strong> – The current 3D avatar does not yet cover the full range of basic LIS signs.</li>
+      </ul>
+      <p>These challenges are part of our ongoing work in progress, and overcoming them is essential to deliver a fully reliable and inclusive tool.</p>
+
+      <h3>Requirements</h3>
+      <ul>
         <li>Node.js &gt;= 14</li>
         <li>Python 3.8+</li>
-        <li>Blender installato (per modifiche ai modelli)</li>
-        <li>Browser compatibile WebGL</li>
+        <li>Blender installed (for model editing)</li>
+        <li>WebGL-compatible browser</li>
       </ul>
 
-      <h3 id="inst-title">Installazione</h3>
-      <pre id="inst-text">
-# clona il repository
-git clone https://github.com/&lt;your-username&gt;/echosynch.git
+      <h3>Installation</h3>
+      <pre>
+# clone the repository
+git clone https://github.com/ermacco/EchoSynch.git
 cd echosynch
 
-# installa le dipendenze
+# install dependencies
 npm install
 
-# avvia in modalità sviluppo
+# start in development mode
 npm run dev
       </pre>
 
-      <h3 id="use-title">Utilizzo</h3>
-      <pre id="use-text">
-# esempio avvio locale
+      <h3>Usage</h3>
+      <pre>
+# example local run
 npm run start
-Oppure, come libreria:
+Or, if used as a library:
 
 import { EchoSynch } from "echosynch";
 
@@ -246,333 +204,47 @@ EchoSynch.start({
 });
       </pre>
 
-      <h3 id="repo-title">Struttura repository</h3>
-      <pre id="repo-text">
+      <h3>Repository Structure</h3>
+      <pre>
 ├── README.md
-├── src/                # codice sorgente
-├── models/             # avatar 3D e animazioni
-├── tests/              # test automatici
-├── docs/               # documentazione
-├── requirements.txt    # dipendenze Python (se presenti)
-├── package.json        # dipendenze Node
-└── .github/            # workflow CI / template issue
+├── main/
+  ├── src/
+  ├── website/               # source code
+  ├── package.json        # Node dependencies
+└── .github/            # CI workflows / issue templates
       </pre>
-      <!-- AGGIUNTO LINK GITHUB -->
-      <p id="repo-link"><a href="https://github.com/ermacco/EchoSynch" target="_blank">Visualizza repository su GitHub</a></p>
+      <p><a href="https://github.com/ermacco/EchoSynch" target="_blank">View repository on GitHub</a></p>
 
-      <h3 id="cont-title">Contributi</h3>
-      <ul id="cont-list">
-        <li>Forka il repository</li>
-        <li>Crea un branch con nome descrittivo (feat/nome-funzionalità)</li>
-        <li>Apri una Pull Request descrivendo le modifiche</li>
-        <li>Segui gli standard di codice e assicurati che i test siano superati</li>
+      <h3>Contributing</h3>
+      <ul>
+        <li>Fork the repository</li>
+        <li>Create a branch with a descriptive name (feat/feature-name)</li>
+        <li>Open a Pull Request describing your changes</li>
+        <li>Follow code standards and ensure tests pass</li>
       </ul>
 
-      <h3 id="road-title">Roadmap</h3>
-      <ul id="road-list">
-        <li>Integrazione YouTube</li>
-        <li>Supporto a più lingue dei segni</li>
-        <li>Miglioramento espressioni facciali avatar</li>
-        <li>Estensione per TV e piattaforme streaming</li>
+      <h3>Roadmap</h3>
+      <ul>
+        <li>YouTube integration</li>
+        <li>Support for multiple sign languages</li>
+        <li>Improved avatar facial expressions</li>
+        <li>Extension for TV and streaming platforms</li>
       </ul>
 
-      <h3 id="soc-title">Impatto sociale e conclusione</h3>
-      <p id="soc-text">EchoSynch non è solo un progetto tecnologico: è un’iniziativa con forte impatto sociale. Oggi molte persone sorde si affidano ai sottotitoli per comprendere i contenuti digitali. Ma i sottotitoli non sempre colgono le sfumature linguistiche e non rappresentano la LIS, che è una lingua vera e propria con grammatica propria.</p>
-      <p id="soc-note">Con EchoSynch la comunicazione diventa più immediata, naturale e coinvolgente. Significa:</p>
-      <ul id="soc-list">
-        <li>✅ più autonomia,</li>
-        <li>✅ più inclusione,</li>
-        <li>✅ più opportunità di apprendimento, intrattenimento e partecipazione sociale.</li>
+      <h3>Social Impact and Conclusion</h3>
+      <p>EchoSynch is not just a technological project: it’s an initiative with a strong social impact. Today, many deaf people rely on subtitles to understand digital content. But subtitles don’t always capture linguistic nuances and don’t represent LIS, which is a full-fledged language with its own grammar.</p>
+      <p>With EchoSynch, communication becomes more immediate, natural, and engaging. It means:</p>
+      <ul>
+        <li>✅ more autonomy,</li>
+        <li>✅ more inclusion,</li>
+        <li>✅ more opportunities for learning, entertainment, and social participation.</li>
       </ul>
-      <p id="soc-end">Il nostro obiettivo è costruire un mondo più empatico, dove udenti e sordi possano comunicare senza barriere. La tecnologia parla con le mani. E finalmente, tutti possono ascoltare.</p>
+      <p>Our goal is to build a more empathetic world, where hearing and deaf people can communicate without barriers. Technology speaks with hands. And finally, everyone can listen.</p>
     </section>
   </main>
 
-  <footer id="footer-text">
-    &copy; 2025 EchoSynch. Tutti i diritti riservati.
+  <footer>
+    &copy; 2025 EchoSynch. All rights reserved.
   </footer>
-
-  <script>
-    const translations = {
-      it: {
-        mainTitle: "Benvenuti ad EchoSynch",
-        aboutTitle: "🌍 EchoSynch: Comunicazione Inclusiva Rivoluzionata",
-        aboutStatus: "<strong>Stato:</strong> In sviluppo • <strong>Lingua:</strong> Italiano",
-        tocTitle: "Indice",
-        tocList: [
-          "Introduzione",
-          "Come funziona",
-          "Tecnologie utilizzate",
-          "Applicazioni pratiche",
-          "Sfide e limiti attuali",
-          "Requisiti",
-          "Installazione",
-          "Utilizzo",
-          "Struttura repository",
-          "Contributi",
-          "Roadmap",
-          "Impatto sociale e conclusione"
-        ],
-        introTitle: "Introduzione",
-        aboutText: `Immagina un mondo dove le parole non sono solo suoni, ma si trasformano in gesti visibili. Un mondo dove la comunicazione è davvero accessibile a tutti, senza barriere.<br><br>
-EchoSynch nasce proprio con questo scopo: costruire un ponte tra persone sorde e udenti grazie alla tecnologia. Attraverso un avatar 3D realistico, il nostro sistema traduce l’audio parlato in LIS (Lingua dei Segni Italiana) in tempo reale.<br><br>
-Ogni gesto è progettato con precisione per rispettare la grammatica e la struttura della LIS. Questo permette a milioni di persone di accedere immediatamente a video, trasmissioni TV, conferenze online e conversazioni quotidiane.`,
-        howTitle: "Come funziona",
-        howList: [
-          "<strong>Riconoscimento vocale</strong> – L’audio in ingresso viene analizzato e trascritto in tempo reale dal sistema speech-to-text.",
-          "<strong>Traduzione LIS</strong> – Il testo viene interpretato da un motore linguistico che mappa le frasi ai segni LIS corrispondenti.",
-          "<strong>Animazione 3D</strong> – L’avatar esegue i gesti con movimenti del corpo ed espressioni, fondamentali per la corretta comprensione della lingua dei segni."
-        ],
-        howResult: "👉 Il risultato è una comunicazione immediata, naturale e accessibile.",
-        techTitle: "Tecnologie utilizzate",
-        techList: [
-          "<strong>THREE.js</strong> → per modellazione e animazione 3D direttamente sul web, con movimenti fluidi e realistici.",
-          "<strong>Blender</strong> → per creare il modello 3D e definire le animazioni LIS.",
-          "<strong>HTML e integrazione web</strong> → per un’interfaccia semplice, compatibile e accessibile su ogni dispositivo.",
-          "<strong>Motori di riconoscimento vocale</strong> → per convertire l’audio in testo in tempo reale, base per la traduzione LIS."
-        ],
-        techNote: "Ogni componente è stata scelta per garantire affidabilità, realismo e facilità d’uso.",
-        appTitle: "Applicazioni pratiche",
-        appText: "Stiamo lavorando per integrare EchoSynch nelle principali piattaforme di streaming come YouTube, Netflix, Prime Video, Disney+ e altre, per rendere i contenuti più accessibili alla comunità sorda.",
-        appList: [
-          "📺 <strong>Trasmissioni TV</strong> → rendere i programmi live più accessibili.",
-          "🎓 <strong>Educazione online</strong> → garantire un’esperienza di apprendimento davvero inclusiva per studenti sordi.",
-          "🎤 <strong>Eventi e conferenze</strong> → offrire traduzione simultanea senza bisogno costante di interpreti."
-        ],
-        appNote: "👉 Attualmente, nulla di simile esiste sul mercato.",
-        chTitle: "Sfide e limiti attuali",
-        chList: [
-          "<strong>Compatibilità browser</strong> – Funziona bene su Chrome, ma restano problemi su Edge, Firefox e Opera.",
-          "<strong>Qualità dei movimenti</strong> – Alcuni gesti dell’avatar non sono ancora abbastanza fluidi.",
-          "<strong>Vocabolario LIS incompleto</strong> – L’avatar 3D attuale non copre ancora tutta la gamma dei segni LIS di base."
-        ],
-        chNote: "Queste sfide fanno parte del nostro lavoro in corso: superarle è essenziale per offrire uno strumento davvero affidabile e inclusivo.",
-        reqTitle: "Requisiti",
-        reqList: [
-          "Node.js &gt;= 14",
-          "Python 3.8+",
-          "Blender installato (per modifiche ai modelli)",
-          "Browser compatibile WebGL"
-        ],
-        instTitle: "Installazione",
-        instText: `# clona il repository
-git clone https://github.com/&lt;your-username&gt;/echosynch.git
-cd echosynch
-
-# installa le dipendenze
-npm install
-
-# avvia in modalità sviluppo
-npm run dev`,
-        useTitle: "Utilizzo",
-        useText: `# esempio avvio locale
-npm run start
-Oppure, come libreria:
-
-import { EchoSynch } from "echosynch";
-
-EchoSynch.start({
-  audioInput: "mic",
-  avatar: "default",
-});`,
-        repoTitle: "Struttura repository",
-        repoText: `├── README.md
-├── src/                # codice sorgente
-├── models/             # avatar 3D e animazioni
-├── tests/              # test automatici
-├── docs/               # documentazione
-├── requirements.txt    # dipendenze Python (se presenti)
-├── package.json        # dipendenze Node
-└── .github/            # workflow CI / template issue`,
-        repoLink: `<a href="https://github.com/ermacco/EchoSynch" target="_blank">Visualizza repository su GitHub</a>`,
-        contTitle: "Contributi",
-        contList: [
-          "Forka il repository",
-          "Crea un branch con nome descrittivo (feat/nome-funzionalità)",
-          "Apri una Pull Request descrivendo le modifiche",
-          "Segui gli standard di codice e assicurati che i test siano superati"
-        ],
-        roadTitle: "Roadmap",
-        roadList: [
-          "Integrazione YouTube",
-          "Supporto a più lingue dei segni",
-          "Miglioramento espressioni facciali avatar",
-          "Estensione per TV e piattaforme streaming"
-        ],
-        socTitle: "Impatto sociale e conclusione",
-        socText: "EchoSynch non è solo un progetto tecnologico: è un’iniziativa con forte impatto sociale. Oggi molte persone sorde si affidano ai sottotitoli per comprendere i contenuti digitali. Ma i sottotitoli non sempre colgono le sfumature linguistiche e non rappresentano la LIS, che è una lingua vera e propria con grammatica propria.",
-        socNote: "Con EchoSynch la comunicazione diventa più immediata, naturale e coinvolgente. Significa:",
-        socList: [
-          "✅ più autonomia,",
-          "✅ più inclusione,",
-          "✅ più opportunità di apprendimento, intrattenimento e partecipazione sociale."
-        ],
-        socEnd: "Il nostro obiettivo è costruire un mondo più empatico, dove udenti e sordi possano comunicare senza barriere. La tecnologia parla con le mani. E finalmente, tutti possono ascoltare.",
-        footerText: "&copy; 2025 EchoSynch. Tutti i diritti riservati."
-      },
-      en: {
-        mainTitle: "Welcome to EchoSynch",
-        aboutTitle: "🌍 EchoSynch: Inclusive Communication Revolutionized",
-        aboutStatus: "<strong>Status:</strong> WIP • <strong>Language:</strong> English",
-        tocTitle: "Table of Contents",
-        tocList: [
-          "Introduction",
-          "How It Works",
-          "Technologies Used",
-          "Practical Applications",
-          "Challenges and Current Limitations",
-          "Requirements",
-          "Installation",
-          "Usage",
-          "Repository Structure",
-          "Contributing",
-          "Roadmap",
-          "Social Impact and Conclusion"
-        ],
-        introTitle: "Introduction",
-        aboutText: `Imagine a world where words are not just sounds, but transform into visible gestures. A world where communication is truly accessible to everyone, without barriers.<br><br>
-EchoSynch was created with this very purpose: to build a bridge between deaf and hearing people through technology. Through a realistic 3D avatar, our system translates spoken audio into LIS (Italian Sign Language) in real time.<br><br>
-Each gesture is precisely designed to respect the grammar and structure of LIS. This allows millions of people to immediately access videos, TV broadcasts, online conferences, and everyday conversations.`,
-        howTitle: "How It Works",
-        howList: [
-          "<strong>Speech Recognition</strong> – The input audio is analyzed and transcribed in real time by the speech-to-text system.",
-          "<strong>LIS Translation</strong> – The text is interpreted by a linguistic engine that maps sentences to corresponding LIS signs.",
-          "<strong>3D Animation</strong> – The avatar performs gestures with body movements and expressions, which are essential for correct comprehension of sign language."
-        ],
-        howResult: "👉 The result is immediate, natural, and accessible communication.",
-        techTitle: "Technologies Used",
-        techList: [
-          "<strong>THREE.js</strong> → for 3D modeling and animation directly on the web, with smooth and realistic movements.",
-          "<strong>Blender</strong> → to create the 3D model and define LIS-related animations.",
-          "<strong>HTML and web integration</strong> → for a simple, compatible, and accessible interface on any device.",
-          "<strong>Speech recognition engines</strong> → to convert audio into text in real time, serving as the basis for LIS translation."
-        ],
-        techNote: "Each component was chosen to ensure reliability, realism, and ease of use.",
-        appTitle: "Practical Applications",
-        appText: "We are also working to integrate EchoSynch into major streaming platforms such as YouTube, Netflix, Prime Video, Disney+, and others, to make their content more accessible to the deaf community.",
-        appList: [
-          "📺 <strong>TV broadcasts</strong> → making live programs more accessible.",
-          "🎓 <strong>Online education</strong> → ensuring a truly inclusive learning experience for deaf students.",
-          "🎤 <strong>Events and conferences</strong> → offering simultaneous translation without the constant need for interpreters."
-        ],
-        appNote: "👉 Currently, nothing like this exists on the market.",
-        chTitle: "Challenges and Current Limitations",
-        chList: [
-          "<strong>Browser compatibility</strong> – Works smoothly on Chrome, but issues remain with Edge, Firefox, and Opera.",
-          "<strong>Dynamic motion quality</strong> – Some avatar gestures are not fluid enough.",
-          "<strong>Incomplete LIS vocabulary</strong> – The current 3D avatar does not yet cover the full range of basic LIS signs."
-        ],
-        chNote: "These challenges are part of our ongoing work in progress, and overcoming them is essential to deliver a fully reliable and inclusive tool.",
-        reqTitle: "Requirements",
-        reqList: [
-          "Node.js &gt;= 14",
-          "Python 3.8+",
-          "Blender installed (for model editing)",
-          "WebGL-compatible browser"
-        ],
-        instTitle: "Installation",
-        instText: `# clone the repository
-git clone https://github.com/&lt;your-username&gt;/echosynch.git
-cd echosynch
-
-# install dependencies
-npm install
-
-# start in development mode
-npm run dev`,
-        useTitle: "Usage",
-        useText: `# example local run
-npm run start
-Or, if used as a library:
-
-import { EchoSynch } from "echosynch";
-
-EchoSynch.start({
-  audioInput: "mic",
-  avatar: "default",
-});`,
-        repoTitle: "Repository Structure",
-        repoText: `├── README.md
-├── src/                # source code
-├── models/             # 3D avatars and animations
-├── tests/              # automated tests
-├── docs/               # documentation
-├── requirements.txt    # Python dependencies (if any)
-├── package.json        # Node dependencies
-└── .github/            # CI workflows / issue templates`,
-        repoLink: `<a href="https://github.com/ermacco/EchoSynch" target="_blank">View repository on GitHub</a>`,
-        contTitle: "Contributing",
-        contList: [
-          "Fork the repository",
-          "Create a branch with a descriptive name (feat/feature-name)",
-          "Open a Pull Request describing your changes",
-          "Follow code standards and ensure tests pass"
-        ],
-        roadTitle: "Roadmap",
-        roadList: [
-          "YouTube integration",
-          "Support for multiple sign languages",
-          "Improved avatar facial expressions",
-          "Extension for TV and streaming platforms"
-        ],
-        socTitle: "Social Impact and Conclusion",
-        socText: "EchoSynch is not just a technological project: it’s an initiative with a strong social impact. Today, many deaf people rely on subtitles to understand digital content. But subtitles don’t always capture linguistic nuances and don’t represent LIS, which is a full-fledged language with its own grammar.",
-        socNote: "With EchoSynch, communication becomes more immediate, natural, and engaging. It means:",
-        socList: [
-          "✅ more autonomy,",
-          "✅ more inclusion,",
-          "✅ more opportunities for learning, entertainment, and social participation."
-        ],
-        socEnd: "Our goal is to build a more empathetic world, where hearing and deaf people can communicate without barriers. Technology speaks with hands. And finally, everyone can listen.",
-        footerText: "&copy; 2025 EchoSynch. All rights reserved."
-      }
-    };
-
-    let currentLang = "it";
-    document.getElementById("lang-btn").onclick = function() {
-      currentLang = currentLang === "it" ? "en" : "it";
-      this.textContent = currentLang === "it" ? "🇬🇧" : "🇮🇹";
-      const t = translations[currentLang];
-      document.getElementById("main-title").textContent = t.mainTitle;
-      document.getElementById("about-title").innerHTML = t.aboutTitle;
-      document.getElementById("about-status").innerHTML = t.aboutStatus;
-      document.getElementById("toc-title").textContent = t.tocTitle;
-      document.getElementById("toc-list").innerHTML = t.tocList.map(item => `<li>${item}</li>`).join("");
-      document.getElementById("intro-title").textContent = t.introTitle;
-      document.getElementById("about-text").innerHTML = t.aboutText;
-      document.getElementById("how-title").textContent = t.howTitle;
-      document.getElementById("how-list").innerHTML = t.howList.map(item => `<li>${item}</li>`).join("");
-      document.getElementById("how-result").textContent = t.howResult;
-      document.getElementById("tech-title").textContent = t.techTitle;
-      document.getElementById("tech-list").innerHTML = t.techList.map(item => `<li>${item}</li>`).join("");
-      document.getElementById("tech-note").textContent = t.techNote;
-      document.getElementById("app-title").textContent = t.appTitle;
-      document.getElementById("app-text").textContent = t.appText;
-      document.getElementById("app-list").innerHTML = t.appList.map(item => `<li>${item}</li>`).join("");
-      document.getElementById("app-note").textContent = t.appNote;
-      document.getElementById("ch-title").textContent = t.chTitle;
-      document.getElementById("ch-list").innerHTML = t.chList.map(item => `<li>${item}</li>`).join("");
-      document.getElementById("ch-note").textContent = t.chNote;
-      document.getElementById("req-title").textContent = t.reqTitle;
-      document.getElementById("req-list").innerHTML = t.reqList.map(item => `<li>${item}</li>`).join("");
-      document.getElementById("inst-title").textContent = t.instTitle;
-      document.getElementById("inst-text").textContent = t.instText;
-      document.getElementById("use-title").textContent = t.useTitle;
-      document.getElementById("use-text").textContent = t.useText;
-      document.getElementById("repo-title").textContent = t.repoTitle;
-      document.getElementById("repo-text").textContent = t.repoText;
-      document.getElementById("repo-link").innerHTML = t.repoLink;
-      document.getElementById("cont-title").textContent = t.contTitle;
-      document.getElementById("cont-list").innerHTML = t.contList.map(item => `<li>${item}</li>`).join("");
-      document.getElementById("road-title").textContent = t.roadTitle;
-      document.getElementById("road-list").innerHTML = t.roadList.map(item => `<li>${item}</li>`).join("");
-      document.getElementById("soc-title").textContent = t.socTitle;
-      document.getElementById("soc-text").textContent = t.socText;
-      document.getElementById("soc-note").textContent = t.socNote;
-      document.getElementById("soc-list").innerHTML = t.socList.map(item => `<li>${item}</li>`).join("");
-      document.getElementById("soc-end").textContent = t.socEnd;
-      document.getElementById("footer-text").innerHTML = t.footerText;
-    };
-  </script>
 </body>
 </html>
