@@ -257,6 +257,8 @@ EchoSynch.start({
 ├── package.json        # dipendenze Node
 └── .github/            # workflow CI / template issue
       </pre>
+      <!-- AGGIUNTO LINK GITHUB -->
+      <p id="repo-link"><a href="https://github.com/ermacco/EchoSynch" target="_blank">Visualizza repository su GitHub</a></p>
 
       <h3 id="cont-title">Contributi</h3>
       <ul id="cont-list">
@@ -382,6 +384,7 @@ EchoSynch.start({
 ├── requirements.txt    # dipendenze Python (se presenti)
 ├── package.json        # dipendenze Node
 └── .github/            # workflow CI / template issue`,
+        repoLink: `<a href="https://github.com/ermacco/EchoSynch" target="_blank">Visualizza repository su GitHub</a>`,
         contTitle: "Contributi",
         contList: [
           "Forka il repository",
@@ -497,6 +500,7 @@ EchoSynch.start({
 ├── requirements.txt    # Python dependencies (if any)
 ├── package.json        # Node dependencies
 └── .github/            # CI workflows / issue templates`,
+        repoLink: `<a href="https://github.com/ermacco/EchoSynch" target="_blank">View repository on GitHub</a>`,
         contTitle: "Contributing",
         contList: [
           "Fork the repository",
@@ -557,6 +561,7 @@ EchoSynch.start({
       document.getElementById("use-text").textContent = t.useText;
       document.getElementById("repo-title").textContent = t.repoTitle;
       document.getElementById("repo-text").textContent = t.repoText;
+      document.getElementById("repo-link").innerHTML = t.repoLink;
       document.getElementById("cont-title").textContent = t.contTitle;
       document.getElementById("cont-list").innerHTML = t.contList.map(item => `<li>${item}</li>`).join("");
       document.getElementById("road-title").textContent = t.roadTitle;
